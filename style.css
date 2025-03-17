@@ -1,0 +1,57 @@
+/* Import Poppins font */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f1e6; /* Soft Beige */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #5e503f; /* Khaki Brown */
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #d3c0a6; /* Soft Brown Border */
+    text-align: center;
+    font-weight: 700;
+}
+
+th {
+    background-color: #a79a84; /* Muted Brown */
+    color: white;
+}
+
+/* Course Colors */
+.course {
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.iss105 { background-color: #c5a880; } /* Soft Brown */
+.is107 { background-color: #a3b18a; } /* Matcha Green */
+.cs107 { background-color: #8f9779; } /* Olive Green */
+.cs107l { background-color: #6b705c; } /* Dark Khaki */
+.it103 { background-color: #b7b7a4; } /* Pale Green */
+.it103l { background-color: #d8a48f; } /* Warm Beige */
+.hum039 { background-color: #e1c699; } /* Light Sand */
+.ss086 { background-color: #a98467; } /* Earthy Brown */
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+}
